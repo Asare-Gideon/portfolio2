@@ -77,6 +77,8 @@ section{
 }
 .typed-cursor, .typing{
     color: crimson;
+    font-size: 1.6rem;
+    display:inline;
 }
 /*===================Global variables========================*/
 
@@ -811,11 +813,20 @@ footer span a:hover{
         width: 280px;
         height: 300px;
     }
+    main .about .about-content .right  .typing{
+      font-size: 1.2rem;
+    }
+    main .services .title::after{
+        font-size: .8rem;
+    }
 
 }
 @media only screen and (max-width:300px){
     main section .title::after{
         font-size: 16px;
+    }
+    main .about .about-content .right{
+        padding: 0 30px;
     }
     main .about .about-content .left img{
         width: 260px;
@@ -837,6 +848,12 @@ main .contact  .right form .textarea textarea{
 main .services .title::after{
     font-size: .8rem;
 }
+main .about .about-content .right  .text{
+    font-size: 1.4rem;
+  }
+main .about .about-content .right  .typing{
+    font-size: 1.1rem;
+  }
 }
 
 /*----------queries------------*/
